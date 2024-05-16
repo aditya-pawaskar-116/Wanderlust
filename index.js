@@ -4,7 +4,7 @@ const Listing = require("../models/listing.js");
 
 const dbConnection = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URL);
+        await mongoose.connect("mongodb+srv://pawaskara53:TBtCdRIfHbxtfdjy@cluster0.h5ynziy.mongodb.net/wanerlust");
         console.log("DB connection Successfully");
     } catch (error) {
         console.log("error");
